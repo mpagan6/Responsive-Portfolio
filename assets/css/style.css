@@ -237,3 +237,46 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media only screen and (max-width: 980px) {
+  
+  .masthead {
+    width: 980 px;
+
+}
+}
+
+@media only screen and (max-width: 768px) {
+  .masthead {
+   width:768px;
+   overflow: hidden;
+
+ }
+ nav a {
+   margin-right: 20px;
+
+ }
+ .logo {
+   width: 300px;
+ }
+}
+
+@media only screen and (max-width: 640px) {
+  
+  .masthead {
+    position: static;
+    width: 640px;
+    overflow: hidden;
+  }
+  .logo {
+    width: 640px;
+    float: left;
+
+  }
+  .sidebar {
+    float: left;
+  }
+  nav a{
+    margin-left: 88px;
+  }
+}
